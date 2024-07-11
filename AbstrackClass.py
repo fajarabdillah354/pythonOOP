@@ -3,7 +3,7 @@
 import abc
 from abc import ABC,abstractmethod
 
-class Hewan(ABC):#kita gunakan class ABS sebagai superclass untuk membuat abstrack
+class Hewan(ABC):#kita gunakan class ABC sebagai superclass untuk membuat abstrack
     @abstractmethod
     def ciri(self):
             print("berikut adalah ciri tiap hewan") 

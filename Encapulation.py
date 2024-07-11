@@ -1,7 +1,7 @@
 class Hero:
 
     def __init__(self, name, health):
-        self.__name = name
+        self.__name = name ##UNTUK MEMBUAT ENCAPULATION __nameVar
         self.__health = health
 
     #getter
